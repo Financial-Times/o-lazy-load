@@ -3,7 +3,7 @@
 	"keywords": ["lazy", "loading", "images"],
 	"origamiType": "module",
 	"origamiCategory": "components",
-	"origamiVersion": 1,
+	"origamiVersion": 2,
 	"support": "https://github.com/Financial-Times/o-lazy-load/issues",
 	"supportContact": {
 		"email": "origami.support@ft.com",

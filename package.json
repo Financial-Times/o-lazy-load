@@ -1,14 +1,19 @@
 {
-	"private": true,
-	"name": "o-lazy-load",
-	"devDependencies": {
-		"eslint": "^7.8.1",
-		"eslint-config-origami-component": "^2.1.0",
-		"origami-ci-tools": "^2.0.2",
-		"remark": "^12.0.1",
-		"remark-lint": "^7.0.1",
-		"remark-preset-lint-origami-component": "^1.1.3",
-		"stylelint": "^13.7.0",
-		"stylelint-config-origami-component": "^1.0.4"
-	}
+    "name": "o-lazy-load",
+    "devDependencies": {
+        "eslint": "^7.8.1",
+        "eslint-config-origami-component": "^2.1.0",
+        "origami-ci-tools": "^2.0.2",
+        "remark": "^12.0.1",
+        "remark-lint": "^7.0.1",
+        "remark-preset-lint-origami-component": "^1.1.3",
+        "stylelint": "^13.7.0",
+        "stylelint-config-origami-component": "^1.0.4"
+    },
+    "main": "main.js",
+    "description": "Provides lazy loading functionality for images, pictures, iframes, and more. It is powered by the Intersection Observer API to detect when the visibility of elements changes.",
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    },
+    "version": "3.0.0-0"
 }
