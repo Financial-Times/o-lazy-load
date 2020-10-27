@@ -1,27 +1,37 @@
 {
-    "name": "@financial-times/o-lazy-load",
-    "version": "100.0.0-8",
-    "description": "Provides lazy loading functionality for images, pictures, iframes, and more. It is powered by the Intersection Observer API to detect when the visibility of elements changes.",
-    "license": "MIT",
-    "type": "module",
-    "exports": {
-        ".": {
-            "browser": "./main.js"
-        }
-    },
-    "browser": "./main.js",
-    "types": "types",
-    "devDependencies": {
-        "eslint": "^7.8.1",
-        "eslint-config-origami-component": "^2.1.0",
-        "origami-ci-tools": "^2.0.2",
-        "remark": "^12.0.1",
-        "remark-lint": "^7.0.1",
-        "remark-preset-lint-origami-component": "^1.1.3",
-        "stylelint": "^13.7.0",
-        "stylelint-config-origami-component": "^1.0.4"
-    },
-    "publishConfig": {
-        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  "name": "@financial-times/o-lazy-load",
+  "version": "100.0.0-10",
+  "description": "Provides lazy loading functionality for images, pictures, iframes, and more. It is powered by the Intersection Observer API to detect when the visibility of elements changes.",
+  "keywords": [],
+  "homepage": "https://github.com/Financial-Times/o-lazy-load#readme",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/o-lazy-load/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/o-lazy-load.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./main.js"
     }
+  },
+  "browser": "./main.js",
+  "types": "types",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-origami-component": "^2.1.0",
+    "origami-ci-tools": "^2.0.2",
+    "remark": "^12.0.1",
+    "remark-lint": "^7.0.1",
+    "remark-preset-lint-origami-component": "^1.1.3",
+    "stylelint": "^13.7.0",
+    "stylelint-config-origami-component": "^1.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  }
 }
